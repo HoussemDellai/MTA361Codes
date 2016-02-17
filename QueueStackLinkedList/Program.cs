@@ -38,7 +38,7 @@ namespace QueueStackLinkedList
             linkedList.AddAfter(linkedList.Find(9), 5); // 9, 5
             linkedList.Remove(9); // 5
 
-            Console.ReadLine();
+            Console.Read();
         }
     }
 }
