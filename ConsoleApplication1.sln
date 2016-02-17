@@ -36,6 +36,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient", "WebServ
 		{1BE4D425-7772-4405-AA60-771AC9BBAE75} = {1BE4D425-7772-4405-AA60-771AC9BBAE75}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseWebApp", "DatabaseWebApp\DatabaseWebApp.csproj", "{439276E4-E714-4960-BEAD-6CDC64005628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadWriteFile", "ReadWriteFile\ReadWriteFile.csproj", "{47C4EDD1-0BBE-47A7-8913-8BD6A82ADC62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +106,14 @@ Global
 		{FFB5671D-0721-4F90-B3A7-29E6A6988066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB5671D-0721-4F90-B3A7-29E6A6988066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB5671D-0721-4F90-B3A7-29E6A6988066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439276E4-E714-4960-BEAD-6CDC64005628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439276E4-E714-4960-BEAD-6CDC64005628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439276E4-E714-4960-BEAD-6CDC64005628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439276E4-E714-4960-BEAD-6CDC64005628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C4EDD1-0BBE-47A7-8913-8BD6A82ADC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C4EDD1-0BBE-47A7-8913-8BD6A82ADC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C4EDD1-0BBE-47A7-8913-8BD6A82ADC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C4EDD1-0BBE-47A7-8913-8BD6A82ADC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

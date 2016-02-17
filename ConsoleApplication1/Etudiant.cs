@@ -11,7 +11,7 @@ namespace ConsoleApplication1
 
         public float F { get; set; }
 
-        public static string Departement;
+        public string Departement;
 
         public Etudiant(string Nom, int age, string departement) : base(Nom, age)
         {
