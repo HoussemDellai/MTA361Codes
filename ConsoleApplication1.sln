@@ -29,6 +29,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFromConsoleApp", "ReadF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueStackLinkedList", "QueueStackLinkedList\QueueStackLinkedList.csproj", "{399AEBB7-5CD0-46BD-9B72-35B1C64ED0B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceApp", "WebServiceApp\WebServiceApp.csproj", "{1BE4D425-7772-4405-AA60-771AC9BBAE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient", "WebServiceClient\WebServiceClient.csproj", "{FFB5671D-0721-4F90-B3A7-29E6A6988066}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BE4D425-7772-4405-AA60-771AC9BBAE75} = {1BE4D425-7772-4405-AA60-771AC9BBAE75}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +94,14 @@ Global
 		{399AEBB7-5CD0-46BD-9B72-35B1C64ED0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{399AEBB7-5CD0-46BD-9B72-35B1C64ED0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{399AEBB7-5CD0-46BD-9B72-35B1C64ED0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE4D425-7772-4405-AA60-771AC9BBAE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE4D425-7772-4405-AA60-771AC9BBAE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE4D425-7772-4405-AA60-771AC9BBAE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE4D425-7772-4405-AA60-771AC9BBAE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB5671D-0721-4F90-B3A7-29E6A6988066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB5671D-0721-4F90-B3A7-29E6A6988066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB5671D-0721-4F90-B3A7-29E6A6988066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB5671D-0721-4F90-B3A7-29E6A6988066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
