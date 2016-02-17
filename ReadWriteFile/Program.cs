@@ -13,12 +13,36 @@ namespace ReadWriteFile
         {
             var sw = new StreamWriter(@"D:\data.txt");
             sw.WriteLine("ISET Jendouba :)");
+            sw.Close();
 
             var sr = new StreamReader(@"D:\data.txt");
             string line;
             while ((line = sr.ReadLine()) != null)
             {
                 Console.WriteLine(line);
+            }
+            sr.Close();
+
+            EquivalentSyntax();
+
+            Console.Read();
+        }
+
+        private static void EquivalentSyntax()
+        {
+            using (var sw = new StreamWriter(@"D:\data.txt"))
+            {
+                sw.WriteLine("ISET Jendouba :)");
+            }
+
+            using (var sr = new StreamReader(@"D:\data.txt"))
+            {
+                string line;
+
+                while ((line = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(line);
+                }
             }
         }
     }
